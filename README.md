@@ -30,6 +30,6 @@ ALERT: 203.0.113.99 6 failed logins
 - It doesn't check IPs against a threat intelligence source yet only from the sample log file.
 
 ## What I learned
-- Python script would save time when compared against checking for Ip Manually.
-- Bruteforce attempts can easily be detected with this code because it writes a report when a threshold is reached.
--  
+- I learned how to use a dictionary to count how many times each IP address appeared in the log.
+- I learned how to split each log line into pieces, then split ip=203.0.113.45 at the = sign so only the clean IP address was left.
+  
